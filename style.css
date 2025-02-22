@@ -1,0 +1,359 @@
+/* General Styles */
+body {
+    font-family: 'courier-prime.regular';
+    font-size: 16px;
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+    color: black;
+    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-x: hidden;
+    width: 100%;
+    height: 150vh;
+}
+
+.bodyPhoto {
+    font-family: 'courier-prime.regular';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.bodyVideo {
+    font-family: 'courier-prime.regular';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.bodyLinks {
+    font-family: 'courier-prime.regular';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.bodyAbout {
+    font-family: 'courier-prime.regular';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    background-image: url('assets/Still\ 2025-02-19\ 164756_1.1.1-2.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: black;
+    position: relative;
+}
+.header2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 500px; 
+    padding: 20px; 
+    position: relative;
+    background-color: red;
+
+}
+.header-videos {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 500px; 
+    padding: 20px; 
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+.header-links {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 500px; 
+    padding: 20px; 
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+.header-aboutPage {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 500px; 
+    padding: 20px; 
+    position: relative;
+    background-color: cornflowerblue;
+
+}
+
+.header-about {
+    position: absolute; 
+    top: 5px; 
+    left: 5px; 
+    text-align: left; 
+    color: black;
+    font-size: 13px; 
+}
+
+
+.header-info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: right;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: bold;
+}
+
+
+.header-overlay img {
+    display: block;/* Allows precise placement */ /* Adjust as needed */
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10; /* Ensures it appears above the background */
+    opacity: 0.9; /* Optional: Slight transparency */
+}
+
+
+/* Centered header title */
+.header-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.header-title-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header-title-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.header-title-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+.header-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Section 1 (with margin) */
+.section-1 {
+    margin: 10px 0;
+    height: 500px;
+    left: 25vw;
+    text-align: 25vw;
+}
+
+/* Section 2 (no margin) */
+.section-2 {
+    margin: 0;
+    height: 500px;
+    top: 1000px; 
+}
+
+/* Section 3 (no margin) */
+.section-3 {
+    margin: 0;
+    height: 500px;
+    top: 1100px;
+}
+
+
+/* Window Styling */
+.window {
+    position: absolute;
+    background-color: #c0c0c0; /* Classic Windows 95 gray */
+    border: 2px solid gray;
+    box-shadow: 3px 3px 0px #808080, 3px 3px 0px #404040; /* Retro 3D effect */
+    overflow: hidden;
+}
+
+/* Window Header */
+.window-header {
+    background: #4571b9; /* Classic Windows blue */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 2px solid gray;
+    justify-content: space-between;
+}
+
+/* Align buttons to the right */
+.window-header .buttons {
+    display: flex;
+    gap: 2px;
+    margin-left: auto;
+}
+
+/* Icon styling */
+.window-header .buttons img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    image-rendering: pixelated;
+}
+
+/* Optional hover effect */
+.window-header .buttons img:hover {
+    filter: brightness(85%);
+}
+
+/* Window Content */
+.window-content {
+    overflow-y: auto;
+    max-height: 400px; /* Adjust for one full image at a time */
+}
+
+/* Ensure images stack properly */
+.window-content img {
+    width: 100%;
+    display: block;
+}
+
+/* Minimized Window - Fix */
+.minimized .window-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Modal Styles for Enlarged Image */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+
+
+
