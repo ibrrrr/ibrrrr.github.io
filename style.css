@@ -65,7 +65,7 @@
 }
 /* Header */
 .header {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'courier-prime.regular';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,13 +351,6 @@
 }
 
 /* Responsive Design for smaller screens */
-
-@media (max-width: 480px) {
-    .gallery-item {
-        width: 100%;
-    }
-}
-
 
 @media (max-width: 768px) {
     .header-title {
