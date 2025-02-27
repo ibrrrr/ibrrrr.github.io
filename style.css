@@ -193,12 +193,15 @@
 .header-nav {
     display: flex;
     gap: 10px;
+    z-index: 10; /* Ensure nav links are above other elements */
+    position: relative; /* Ensure z-index takes effect */
 }
 
 .header-nav a {
     color: black;
     text-decoration: none;
     font-size: 16px;
+    padding: 10px; /* Increase padding for better click area */
 }
 
 .header-nav a:hover {
@@ -378,6 +381,7 @@
 
     .header-nav a {
         font-size: 14px;
+        padding: 15px; /* Increase padding for better click area on mobile */
     }
 
     .header-overlay {
