@@ -193,7 +193,7 @@
 .header-nav {
     display: flex;
     gap: 10px;
-    z-index: 10; /* Ensure nav links are above other elements */
+    z-index: 15; /* Ensure nav links are above other elements */
     position: relative; /* Ensure z-index takes effect */
 }
 
@@ -239,7 +239,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 20;
+    z-index: 10;
 }
 
 /* Window Styling */
@@ -333,11 +333,13 @@
 /* Handle portrait images */
 .gallery-item.portrait {
     grid-row: span 2;
+    z-index: 18;
 }
 
 /* Handle landscape images */
 .gallery-item.landscape {
     grid-row: span 1;
+    z-index: 18;
 }
 
 .gallery-item:hover img {
@@ -400,9 +402,6 @@
     .gallery-item.portrait {
         grid-row: span 1;
     }
-}
-
-@media (max-width: 768px){
     .header2, .header-videos, .header-links, .header-aboutPage { height: 20%; padding: 10px; }
     .header-title, .header-title-nav a {
         font-size: 24px; /* Adjust font size for smaller screens */
@@ -431,6 +430,7 @@
         margin-bottom: 20px; /* Add space between windows */
         top: 2150px !important; /* Reset top position */
         left: auto !important; /* Reset left position */
+        z-index: 1; /* Lower z-index for mobile */
     }
     
     .fronts {
@@ -454,7 +454,6 @@
 @media (max-width: 768px) {
     .section-1 + .fronts {
         margin-top: 400px; /* Adjust as needed */
-        z-index: 5;
     }
 }
 
