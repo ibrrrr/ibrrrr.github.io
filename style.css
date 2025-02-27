@@ -129,7 +129,7 @@
     left: 1.5%; 
     text-align: left; 
     color: black;
-    font-size: 13px; 
+    font-size: 17px; 
 }
 
 
@@ -145,16 +145,17 @@
 
 .header-overlay {
     position: absolute;
-    top: 400px;
+    bottom: 20px; /* Position at the bottom */
     left: 20px;
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
     font-weight: bold;
+    z-index: 5; /* Ensure it is above other elements but below nav */
 }
 
-
 .header-overlay img {
+    position: relative;
     display: block;/* Allows precise placement */ /* Adjust as needed */
     width: 100px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
@@ -380,7 +381,8 @@
     }
 
     .header-overlay {
-        top: 300px;
+        bottom: 10px; /* Adjust position for smaller screens */
+        left: 10px;
     }
 
     .header-overlay img {
