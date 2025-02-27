@@ -454,6 +454,7 @@
 @media (max-width: 768px) {
     .section-1 + .fronts {
         margin-top: 400px; /* Adjust as needed */
+        z-index: 5;
     }
 }
 
