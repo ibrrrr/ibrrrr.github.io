@@ -224,9 +224,8 @@
 
 /* Section 2 (no margin) */
 .section-2 {
-    margin: 0;
+    margin: 450px 0;
     height: 500px;
-    top: 1000px; 
 }
 
 /* Section 3 (no margin) */
