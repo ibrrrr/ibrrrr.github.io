@@ -83,7 +83,7 @@
     justify-content: center; 
     align-items: center;
     width: 100%; 
-    height: 500px; 
+    height: 400px; 
     padding: 20px; 
     position: relative;
     background-color: red;
@@ -94,10 +94,10 @@
     justify-content: center; 
     align-items: center;
     width: 100%; 
-    height: 500px; 
+    height: 400px; 
     padding: 20px; 
     position: relative;
-    background-color: cornflowerblue;
+    background-color: #6495ed
 }
 
 .header-links {
@@ -224,7 +224,7 @@
 
 /* Section 2 (no margin) */
 .section-2 {
-    margin: 450px 0;
+    margin: 50px 0;
     height: 500px;
 }
 
@@ -466,5 +466,56 @@
 @media (max-width: 1024px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .intro-text {
+        font-size: 1rem;
+    }
+    
+    .social-links {
+        flex-direction: column;
+        gap: 20px;
     }
 }

@@ -14,18 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Minimize window content on '-' icon click
         minimizeButton.addEventListener("click", function () {
-            if (content.classList.contains("minimized")) {
-                content.classList.remove("minimized");
-                content.style.maxHeight = "400px"; // Restore size
-            } else {
                 content.classList.add("minimized");
                 content.style.maxHeight = "0"; // Collapse
             }
-        });
+        );
 
         // Extra button placeholder functionality
         extraButton.addEventListener("click", function () {
-            console.log("Extra button clicked - add functionality here!");
+            if (content.classList.contains("minimized")) {
+                content.classList.remove("minimized");
+                content.style.maxHeight = "400px"; // Restore size
+            } 
         });
     });
 });
