@@ -521,3 +521,16 @@
         gap: 20px;
     }
 }
+
+.form-table { 
+    display: flex; 
+    align-items: left; 
+    margin-top: 20px; 
+}
+
+.form-table text{
+    font-size: 1.2rem;
+    color: white;
+    text-align: left; 
+    margin-left: 40px;
+}
